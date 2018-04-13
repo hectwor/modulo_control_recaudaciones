@@ -80,9 +80,10 @@ WSGI_APPLICATION = 'modulo_control_recaudaciones.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'HOST': 'db',
+        'NAME': 'uftbygmj',
+        'USER': 'uftbygmj',
+        'PASSWORD': 'nFxQIXtb7tYuelhThPv9_7ZI7bt8LTpS',
+        'HOST': 'stampy.db.elephantsql.com',
         'PORT': 5432
     }
 }
